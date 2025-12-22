@@ -55,6 +55,14 @@
       color: #888;
       margin-top: 80px;
     }
+    .container::before,
+.container::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #c7a24a;
+  margin: 24px 0;
+}
   </style>
 </head>
 
@@ -94,12 +102,3 @@
   </div>
 </body>
 </html>
-
-.container::before,
-.container::after {
-  content: "";
-  display: block;
-  height: 1px;
-  background: #c7a24a;
-  margin: 24px 0;
-}
